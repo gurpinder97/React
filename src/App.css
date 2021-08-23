@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+ 
+  
 }
 
 .App-logo {
@@ -13,16 +15,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
   color: #61dafb;
@@ -36,3 +28,241 @@
     transform: rotate(360deg);
   }
 }
+
+.round
+{
+  width: 100%;
+  height: 50%;
+  background-size: contain;
+}
+
+.welcome
+{
+  margin-top: -920px;
+  font-family: cursive;
+ 
+  
+}
+
+h2{
+  font-size:20px;
+}
+
+#view
+{
+  background-color:#84f14e;
+  text-decoration: none;
+  border: none;
+  color:black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+
+}
+
+#view:hover
+{
+  background-color: greenyellow;
+}
+
+.second
+{
+  margin-top: 500px;
+  color:blanchedalmond;
+  font-family: cursive;
+  font-size: 30px;
+  background-color:black
+
+}
+
+#fast
+{
+  font-size:15px;
+  font-weight: 100;
+}
+
+
+#one
+{
+  height:20%;
+  width:20%;
+  border: 1px solid white;
+  padding-bottom: 70px;
+  margin-right: 600px;
+  margin-bottom: 40px;
+
+}
+
+#one:hover
+{
+  opacity: .5;
+}
+
+#f
+{
+  color: yellow;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-top: -90px;
+  margin-right: 600px;
+ 
+}
+
+#two
+{
+  height:20%;
+  width:20%;
+  border: 1px solid white;
+  padding-bottom: 70px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-top: -900px;
+
+}
+
+#two:hover
+{
+  opacity: .5;
+}
+
+#s
+{
+  color: yellow;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-top: -90px;
+  margin-left: 100px;
+}
+
+.second
+{
+  padding-bottom: 200px;
+}
+
+#three
+{
+  height: 10%;
+  width:20%;
+  border: 1px solid white;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  margin-right: -800px;
+  margin-top: -280px;
+}
+
+#three:hover{
+  opacity: .5;
+  }
+#t
+{
+  color: yellow;
+  font-size: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-top: -90px;
+  margin-left: 800px;
+
+}
+
+@media only screen and (max-width: 620px)
+{
+  .App
+  {
+    overflow: hidden;
+  }
+  .welcome
+  {
+    margin-top: -260px;
+    font-size: 8px !important;
+  }
+
+  #miles
+  {
+    font-size: 12px;
+    margin-left:-30px;
+    
+  }
+  #view
+  {
+    margin-left: -50px;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  .second{
+    margin-top: 120px;
+    
+  }
+
+  #air
+  {
+    font-size: 16px;
+    margin-left: -30px;
+  }
+  #fast
+  {
+    font-size: 14px;
+    margin-left: -20px;
+  }
+
+  #one
+  {
+    width:70%;
+    margin-left: 30px;
+  }
+
+  #f
+  {
+    width:100%;
+    margin-left: -30px;
+  }
+
+   #two
+   {
+     width:70%;
+    margin-top: 50px;
+    margin-left: -50px;
+     
+   }
+
+  #s
+  {
+    width: 100%;
+    margin-left: -30px;
+    margin-top: -90px;
+  }
+
+  #three
+  {
+    width:70%;
+    margin-top: 50px;
+    margin-left:-850px;
+  }
+
+  #t
+  {
+    width: 100%;
+    margin-left: -30px;
+    margin-top: -90px;
+
+  }
+
+  #gallery
+  {
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 620px){
+  
+    .welcome
+    {
+      font-size: 30px;
+     }
+  }
